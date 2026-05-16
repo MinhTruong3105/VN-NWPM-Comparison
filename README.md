@@ -36,7 +36,9 @@ Dự án được tổ chức thành các module rõ ràng nhằm phục vụ ch
  ┃   ┣ dantri_crawler.py
  ┃   ┣ thanhnien_crawler.py
  ┃   ┗ vnexp_crawler.py
- ┗ standardize_data/pre_process       # Tiền xử lý, làm sạch và chuẩn hóa dữ liệu
+ ┗ standardize_data                   # Tiền xử lý, làm sạch và chuẩn hóa dữ liệu
+   ┣ rich_jsonl_maker.py              # Đóng gói dữ liệu thành định dạng JSONL
+   ┣ vn_word_segmenter.py             # Phân đoạn từ tiếng
    ┣ forum_sp                         # Xử lý đặc thù cho dữ liệu diễn đàn (VOZ)
    ┃ ┣ base_cleaning_forum.py
    ┃ ┣ clean_text.py
@@ -45,6 +47,5 @@ Dự án được tổ chức thành các module rõ ràng nhằm phục vụ ch
    ┃ ┣ unigram_extract.py
    ┃ ┗ voz_data_cleaner.py
    ┗ new_sp                           # Xử lý đặc thù cho dữ liệu báo chí
-     ┣ base_cleaning_news.py
-     ┣ rich_jsonl_maker.py            # Đóng gói dữ liệu thành định dạng JSONL
-     ┗ vn_word_segmenter.py           # Phân đoạn từ tiếng
+     ┗ base_cleaning_news.py
+
