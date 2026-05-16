@@ -28,7 +28,8 @@ Dự án được tổ chức thành các module rõ ràng nhằm phục vụ ch
  ┃ ┣ app-nwp-demo.ipynb               # Ứng dụng Demo so sánh trực tiếp 3 mô hình
  ┃ ┣ gru-nwp.ipynb                    # Notebook huấn luyện mô hình GRU
  ┃ ┣ qwen-nwp.ipynb                   # Notebook finetune/infer mô hình Qwen2-1.5B
- ┃ ┗ tcn-nwp.ipynb                    # Notebook huấn luyện mô hình TCN
+ ┃ ┣ tcn-nwp.ipynb                    # Notebook huấn luyện mô hình TCN
+ ┃ ┗ evaluation.ipynb                 # Notebook đánh giá 3 mô hình dựa trên các metric CEE, PPL
  ┣ crawler                            # Các script thu thập dữ liệu thô
  ┃ ┣ forum                            # Thu thập dữ liệu từ diễn đàn
  ┃ ┃ ┗ crawl_voz.py
